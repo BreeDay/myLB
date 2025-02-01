@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 export const LogoTicker = () => {
-    const [games, setGames] = useState(null); // Initialize as null
+    const [games, setGames] = useState<string[] | null>(null); // Initialize as null
 
     useEffect(() => {
         const fetchData = async () => {
