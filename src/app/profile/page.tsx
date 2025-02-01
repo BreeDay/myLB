@@ -25,7 +25,7 @@ export default async function SignIn() {
             <form
         action={async () => {
             "use server"
-            await signIn("google", {redirectTo: '/secret'});
+            await signIn("google");
         }}>
                     <button className="text-white border py-2 px-3 rounded-lg font-medium text-sm bg-blue-900 hover:bg-red-800 shadow-[0px_0px_12px_#8c45ff]">Lets Play Ball</button>
 
