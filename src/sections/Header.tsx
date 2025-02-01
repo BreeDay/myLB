@@ -18,7 +18,7 @@ export const Header = () => {
             <a href="#" className="text-white/70 hover:text-white transition">How It Works</a>
             <a href="#" className="text-white/70 hover:text-white transition">Technical Implementation</a>
             <a className="flex gap-4 items-center text-white">
-          <Button>Try It Now</Button>
+          <Button/>
         </a>
           </nav>   
         </div>
