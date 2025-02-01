@@ -1,0 +1,40 @@
+{
+  "name": "mylb",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "strt": "nodemon index.js",
+    "start:backend": "nodemon server.mjs"
+  },
+  "dependencies": {
+    "@dotlottie/react-player": "^1.6.19",
+    "@google/generative-ai": "^0.21.0",
+    "@lottiefiles/dotlottie-react": "^0.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "framer-motion": "^11.3.2",
+    "next": "^14.2.23",
+    "next-auth": "^5.0.0-beta.25",
+    "nodemon": "^3.1.9",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.4.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

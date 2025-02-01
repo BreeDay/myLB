@@ -1,0 +1,26 @@
+{
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "fileData": {
+              "mimeType": "application/pdf",
+              "fileUri": "gs://mylb_test_bucket/MLB-Official-Rules-2024.pdf"
+              }
+          },
+          {
+            "text": "You are a very professional document summarization specialist.Please summarize the given document."
+          }
+        ]
+      }, 
+      {
+        "role": "model",
+        "parts": [
+          {
+            "text": "The report introduces Gemini 1.5 Pro, a multimodal AI model developed by Google DeepMind. The report positions Gemini 1.5 Pro as a significant advancement in multimodal AI, pushing the boundaries of long-context understanding and opening new avenues for future research and applications."
+          }
+        ]
+      }
+    ]
+  }
